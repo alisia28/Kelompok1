@@ -1,10 +1,8 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 class Admin_model extends CI_Model {
 
 //    public function areaChart() {
-   
 //       $query =  $this->db->query("SELECT COUNT(id) as count,MONTHNAME(date) as month_name FROM posts WHERE YEAR(date) = '" . date('Y') . "' GROUP BY YEAR(date),MONTH(date)"); 
  
 //       $record = $query->result();
@@ -18,7 +16,5 @@ class Admin_model extends CI_Model {
 //       $result = json_encode($data);
 //       return $result;
 //     }
-
 }
 
-/* End of file Admin_model.php */
